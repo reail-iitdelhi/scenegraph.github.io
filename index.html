@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-    content="PhyPlan: Generalizable and Rapid Physical Task Planning with Physics-Informed Skill Networks for Robot Manipulators">
-  <meta name="keywords" content="PhyPlan, PhyPlan">
+    content="Rosbust Hierarchical Scene Graphs using Foundation Models for Sequential Robot Interaction">
+  <meta name="keywords" content="Scene Graph">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PhyPlan</title>
+  <title>SceneGraph</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -32,52 +32,51 @@
         <div class="container is-max-desktop">
           <div class="columns is-centered">
             <div class="column has-text-centered">
-              <h1 class="title is-1 publication-title"><span class="dnerf">PhyPlan</span>: Generalizable and Rapid Physical Task Planning with Physics-Informed Skill Networks for Robot Manipulators</h1>
-              <h3 class="title is-4 conference-authors" style="color: rgb(0, 102, 255);">......</h3>
+              <h1 class="title is-1 publication-title">Robust Hierarchical Scene Graph using Foundation Models for Task Planning</h1>
+              <!-- h3 class="title is-4 conference-authors" style="color: rgb(0, 102, 255);">......</h3 -->
               <div class="is-size-5 publication-authors" , style="margin-bottom: 5mm;">
                 <span class="author-block">
-                  Harshil Vagadia<sup>2*</sup>,</span>
+                  Author<sup>2*</sup>,</span>
                 <span class="author-block">
-                  Mudit Chopra<sup>1*</sup>,</span>
+                  Author<sup>1*</sup>,</span>
                 <span class="author-block">
-                  Abhinav Barnawal<sup>1#</sup>,</span>
+                  Author<sup>1#</sup>,</span>
                 <span class="author-block">
-                  Tamajit Banerjee<sup>2#</sup>,</span>
+                  Author<sup>2#</sup>,</span>
                 <span class="author-block">
-                  Shreshth Tuli<sup>2</sup>,</span>
+                  Author<sup>2</sup>,</span>
                 <span class="author-block">
-                  Souvik Chakraborty<sup>1</sup>,</span>
+                  Author<sup>1</sup>,</span>
                 <span class="author-block">
-                  Rohan Paul<sup>1</sup></span>
+                  Author<sup>1</sup></span>
               </div>
 
               <div class="is-size-6 publication-authors" , style="margin-bottom: 8mm;">
-                <span class="author-block"><sup>1</sup>Work primarily done when at IIT Delhi, </span>
-                <span class="author-block"><sup>2</sup>Affiliated with IIT Delhi, </span>
+                <span class="author-block"><sup>1</sup>Affiliated with IIT Delhi,</span>
                 <span class="author-block"><sup>{*, #}</sup>Indicate equal contributions, </span>
               </div>
 
               <div class="column has-text-centered">
                 <div class="publication-links">
                   <!-- PDF Link. -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://arxiv.org/pdf/2402.15767.pdf" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Paper</span>
                     </a>
-                  </span>
-                  <span class="link-block">
+                  </span> -->
+                  <!-- <span class="link-block">
                     <a href="http://arxiv.org/abs/2402.15767" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
                       </span>
                       <span>arXiv</span>
                     </a>
-                  </span>
+                  </span> -->
                   <!-- Video Link. -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://1drv.ms/f/s!AjIGOzSicYxmgQnyyezjnUCMDo3N?e=54ufNt"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -85,9 +84,9 @@
                       </span>
                       <span>Video</span>
                     </a>
-                  </span>
+                  </span> -->
                   <!-- Code Link. -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/phyplan/PhyPlan"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -95,9 +94,9 @@
                       </span>
                       <span>Code</span>
                     </a>
-                  </span>
+                  </span> -->
                   <!-- Code Link. -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://1drv.ms/f/s!AjIGOzSicYxmcmRXYJJINf42I20?e=XhDGne"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -105,7 +104,7 @@
                       </span>
                       <span>Data</span>
                     </a>
-                  </span>
+                  </span> -->
                 </div>
               </div>
             </div>
@@ -115,23 +114,39 @@
     </header>
   </section>
 
-  <hr>
+  
 
-  <div class="container is-max-desktop has-text-centered">
-    <h2 class="subtitle" , style="max-width: 90%; padding-left: 10%;">
-      <span class="dnerf">PhyPlan</span> is a novel physics-informed planning framework based on accelerated
-      learning of Physical Reasoning Tasks using Physics Informed Skill Networks.
-    </h2>
-  </div>
 
   <section class="section">
     <div class="container is-max-desktop">
       <!-- Abstract. -->
       <h2 class="title has-text-centered is-3">Abstract</h2>
+      <div class="columns is-centered is-vcentered" , padding-left: 7%;">
+        <!-- Image Column -->
+        <div>
+          <img src="./static/images/motivation_diagram.png"
+            style="border-radius: 25px; border: 2px solid #555555;" />
+        </div>
+        <!-- Text Column -->
+        </div>
       <div class="content is-four-fifths has-text-justified">
         <p>
-          Given the task of positioning a ball-like object to a goal region beyond direct reach, humans can often throw, slide, or rebound objects against the wall to attain the goal. However, enabling robots to reason similarly is non-trivial. Existing methods for physical reasoning are data-hungry and struggle with complexity and uncertainty inherent in the real world. This paper presents PhyPlan, a novel physics-informed planning framework that combines physics-informed neural networks (PINNs) with modified Monte Carlo Tree Search (MCTS) to enable embodied agents to perform dynamic physical tasks. PhyPlan leverages PINNs to simulate and predict outcomes of actions in a fast and accurate manner and uses MCTS for planning. It dynamically determines whether to consult a PINN-based simulator (coarse but fast) or engage directly with the actual environment (fine but slow) to determine optimal policy. Given an unseen task, PhyPlan can infer the sequence of actions and learn the latent parameters, resulting in a generalizable approach that can rapidly learn to perform novel physical tasks. Evaluation with robots in simulated 3D environments demonstrates the ability of our approach to solve 3D-physical reasoning tasks involving the composition of dynamic skills. Quantitatively, PhyPlan excels in several aspects: (i) it achieves lower regret when learning novel tasks compared to the state-of-the-art, (ii) it expedites skill learning and enhances the speed of physical reasoning, (iii) it demonstrates higher data efficiency compared to a physics un-informed approach.
+          For generating viable multi-step plans in robotics, 
+          it is necessary to have a representation scheme for scenes that
+          is both open-set and structured in a way that facilitates local
+          updates when the scene changes. We propose a method for
+          generating open-world multi-perspective scene graphs using
+          foundation models, which can support downstream planning
+          tasks. We demonstrate that our method yields superior re-
+          sults compared to previous works in both open-world object
+          detection and relation extraction, even without any priors.
+          Moreover, we illustrate how the multi-perspective nature of
+          the scene graph aids the planner in devising feasible plans for
+          tasks necessitating reasoning over the spatial arrangements and
+          object category abstractions.
         </p>
+      </div>
+      
       </div>
   </section>
 
@@ -142,8 +157,8 @@
         <div class="columns is-centered is-vcentered" , padding-left: 7%;">
           <!-- Image Column -->
           <div>
-            <img src="./static/images/explainer_diagram.png"
-              style="border-radius: 25px; border: 2px solid #555555;" />
+            <img src="./static/images/pipeline.png"
+              />
           </div>
           <!-- Text Column -->
           </div>
@@ -159,199 +174,58 @@
 
       <div class="olumns is-centered is-vcentered has-text-justified">
         <p>
-          <b>PhyPlan pipeline:</b> The robot learns various skills as pre-trained Physics Informed Neural Networks (PINN). When presented with an unseen task, PhyPlan performs action search using MCTS with rollouts facilitated by learnt skill networks to reach the goal region.
-    PhyPlan generates physics-informed priors via sequential composition of learnt skills (PINN-based rollout) to facilitate action search using MCTS to reach the intended goal region.
-    The robot executes the best-predicted action, and the discrepancy between the predicted and actual reward is learnt as the Gaussian Process. The process repeats, and the robot determines the optimum plan within a few trials.
+          <b>Scene Graph pipeline:</b> (few lines about the pipeline)
         </p>
       </div>
     </div>
   </section>
 
 
+  
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3" style="text-align: center;">Skill Learning</h2>
-      <div class="has-text-justified">
-        <p>
-          We consider the problem of learning a model for physical skills such as bouncing a ball-like object off a
-          wedge, sliding over an object, swinging a pendulum, throwing an object as a projectile and hitting an object
-          with a pendulum.
-          The skill learning model predicts the state trajectory of an object as it undergoes a dynamic interaction with
-          another objects.
-        </p>
-        <br>
-      </div>
-      <hr>
-      <div class="columns is-multiline" style="justify-content: center;">
-        <div class="column is-one-third" style="display: flex; flex-direction: column; align-items: center;">
-          <figure class="image" style="display: flex; justify-content: center; align-items: center; margin: auto;">
-            <img src="./static/gif/slide.gif" alt="GIF 1" style="width: 300px; height: 200px; border-radius: 25px;">
-          </figure>
-          <h3 class="title is-5" style="text-align: center;">Sliding Skill</h3>
-          <p style="text-align: justify;">Skill network learns to determine the displacement and velocity of a sliding
-            box with given initial velocity at any time queried on a rough plane</p>
-        </div>
-        <div class="column is-one-third" style="display: flex; flex-direction: column; align-items: center;">
-          <figure class="image" style="display: flex; justify-content: center; align-items: center; margin: auto;">
-            <img src="./static/gif/projectile.gif" alt="GIF 2"
-              style="width: 300px; height: 200px; border-radius: 25px;">
-          </figure>
-          <h3 class="title is-5" style="text-align: center;">Throwing Skill</h3>
-          <p style="text-align: justify;">Skill network learns to determine the location and velocity of ball thrown
-            with
-            given initial angle and velocity at any time queried.</p>
-        </div>
-        <div class="column is-one-third" style="display: flex; flex-direction: column; align-items: center;">
-          <figure class="image" style="display: flex; justify-content: center; align-items: center; margin: auto;">
-            <img src="./static/gif/pendulum.gif" alt="GIF 3" style="width: 300px; height: 200px; border-radius: 25px;">
-          </figure>
-          <h3 class="title is-5" style="text-align: center;">Swinging Skill</h3>
-          <p style="text-align: justify;">Skill network learns to determine angular position and angular velocity of
-            pendulum at any time queried with given initial angular position.</p>
-        </div>
-      </div>
-      <!-- Second Row of GIFs -->
-      <div class="columns is-multiline" style="justify-content: center;">
-        <div class="column is-one-third" style="display: flex; flex-direction: column; align-items: center;">
-          <figure class="image" style="display: flex; justify-content: center; align-items: center; margin: auto;">
-            <img src="./static/gif/peg.gif" alt="GIF 4" style="width: 300px; height: 200px; border-radius: 25px;">
-          </figure>
-          <h3 class="title is-5" style="text-align: center;">Hitting Skill</h3>
-          <p style="text-align: justify;">Skill network learns to determine velocity of puck just after it gets hit by a
-            swinging pendulum.</p>
-        </div>
-        <div class="column is-one-third" style="display: flex; flex-direction: column; align-items: center;">
-          <figure class="image" style="display: flex; justify-content: center; align-items: center; margin: auto;">
-            <img src="./static/gif/bounce.gif" alt="GIF 5" style="width: 300px; height: 200px; border-radius: 25px;">
-          </figure>
-          <h3 class="title is-5" style="text-align: center;">Bouncing Skill</h3>
-          <p style="text-align: justify;">Skill network learns to determine velocity of ball just after it bounces a
-            wedge.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="columns is-centered is-vcentered">
-        <!-- Text Column -->
-        <div class="column is-half has-text-justified">
-          <p>
-            <i><b>The skill learning model is based on a neural network that predicts the object's state during dynamic
-                interaction continuously parameterised by time.</i></b> The figure on the side shows the predicted
-            positions of the ball plotted against time in the Bounce Task. Such interactions can be simulated in a
-            physics engine by using
-            numerical integration schemes.
-            However, since we aim to perform multi-step interactions, simulating outcomes during training is often
-            intractable. Hence, we adopt a learning-based approach and learn a function which predicts the object's
-            state during dynamic interaction continuously parameterised by time.
-            For certain skills like swining, sliding and throwing we levarage the known governing physics equations and
-            employ a physics-informed loss function in neural network to constrain the latent space, these are called as
-            Physics-Informed Skill Networks.
-            However, skills like bouncing and hitting are learnt directly from data because of complex and intractable
-            physics.
-          </p>
-        </div>
-        <!-- Image Column -->
-        <div class="column is-half">
-          <img src="./static/images/bounce_chain_0.5.png" width="1499" height="976"
-            style="border-radius: 25px; border: 2px solid #000000;" />
-        </div>
-      </div>
-      <!-- <div class="has-text-justified">
-        <p>
-          The skill learning model is based on a neural network that predicts the object's state during dynamic
-          interaction continuously parameterised by time. Such interactions can be simulated in a physics engine by
-          using numerical integration schemes.
-          However, since we aim to perform multi-step interactions, simulating outcomes during training is often
-          intractable. Hence, we adopt a learning-based approach and learn a function which predicts the object's
-          state during dynamic interaction continuously parameterised by time.
-          For certain skills like swining, sliding and throwing we levarage the known governing physics equations and
-          employ a physics-informed loss function in neural network to constrain the latent space, these are called as
-          Physics-Informed Skill Networks.
-          However, skills like bouncing and hitting are learnt directly from data because of complex and intractable
-          physics.
-        </p>
-      </div> -->
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Physical Reasoning Tasks</h2>
+      <h2 class="title is-3 has-text-centered">Scene Graphs for Planning</h2>
       <div id="tasks" , class="column has-text-justified">
         <p>
-          We created the following four challenging 3D physical reasoning tasks to analyse the performance of PhyPlan,
-          inspired by prior works in simplistic 2D environments presnted in <a href="https://arxiv.org/abs/1907.09620"
-            class="external-link is-normal">[Allen et al., 2020]</a> and <a href="https://phyre.ai/"
-            class="external-link is-normal">[Bakhtin et al., 2019]</a>.
-          PhyPlan performs semantic reasoning using PINN-based Skill Models before executing each action in the
-          environemnt (just as Humans think before executing). It also learns the difference between PINN-based rewards
-          for actions and actual rewards as it executes actions (called online learning). Therefore, it often improves
-          in subsequent actions (Just as Humans improve their actions with more trials). The videos show the actions
-          taken by PhyPlan on each task. The effect of online learning is more evident in Bounce and Bridge tasks where
-          the robot fails to perform well in early attempts.
+          (Something about the experiements conducted and add the plan rollout videos which shows how the multi-perspective 
+          nature of the generated scene graph aids the planner to do reasoning over complex spatial arrangements and object
+          abstractions. )
         </p>
       </div>
       <hr>
       <div class="columns is-multiline">
         <div class="column is-centered is-half">
           <div class="content">
-            <h3 class="title is-4 has-text-centered">Launch Task</h3>
-            <p class="has-text-justified">Robot trains to use the pendulum object present in the environment to make the
-              ball reach the goal</p>
+            <h3 class="title is-4 has-text-centered">Hierarchical Scene Graph</h3>
+            <p class="has-text-justified">Robot uses the Hierarchical nature of the scene graph to locally update the scene
+              after the execution of an action. (The following video is a placeholder, will be updating it)
+            </p>
             <video id="matting-video" controls playsinline height="100%" style="border-radius: 25px;">
               <source src="./static/video/launch.mp4" type="video/mp4">
             </video>
             <p class="teaser has-text-justified">
-              The robot learns to correctly align the pendulum's plane and angle to throw the ball into the box.
+              Here the robot was update the location and the spatio-depth relations of the objects inside basket after it was pushed to the side.
             </p>
           </div>
         </div>
 
         <div class="column is-centered is-half">
           <div class="content">
-            <h3 class="title is-4 has-text-centered">Slide Task </h3>
-            <p class="has-text-justified">Robot trains to use pendulum object present in the environment to slide the
-              puck to the goal</p>
+            <h3 class="title is-4 has-text-centered">Object Abstraction</h3>
+            <p class="has-text-justified">Robot uses the category abstraction nature of the scene graph to generate plans from 
+              indirect language instructions.(The following video is a placeholder, will be updating it)
+            </p>
             <video id="matting-video" controls playsinline height="100%" style="border-radius: 25px;">
               <source src="./static/video/slide.mp4" type="video/mp4">
             </video>
             <p class="teaser has-text-justified">
-              The following five trials represent the robot eventually sliding the puck to reach the goal by aligning
-              the pendulum and using physical skills like hitting and sliding.
+              Beacuse the scene graph supports category abstraction, the planner was able to generate a plan for the language
+              "remove all the fruits".
             </p>
           </div>
         </div>
 
-        <div class="column is-centered is-half">
-          <div class="content">
-            <h3 class="title is-4 has-text-centered">Bounce Task</h3>
-            <p class="has-text-justified">Robot trains to use wedge object present in the environment to make the ball
-              reach the goal</p>
-            <video id="matting-video" controls playsinline height="100%" style="border-radius: 25px;">
-              <source src="./static/video/bounce.mp4" type="video/mp4">
-            </video>
-            <p class="teaser has-text-justified">
-              In the above five trials, the robot places the wedge at the correct location with the proper orientation,
-              throwing the ball from the proper height, accomplishing the ball reaching the goal.
-            </p>
-          </div>
-        </div>
-
-        <div class="column is-centered is-half">
-          <div class="content">
-            <h3 class="title is-4 has-text-centered">Bridge Task</h3>
-            <p class="has-text-justified">Robot trains to use the pendulum and bridge objects present in the environment
-              to make the puck reach the
-              goal</p>
-            <video id="matting-video" controls playsinline height="100%" style="border-radius: 25px;">
-              <source src="./static/video/bridge.mp4" type="video/mp4">
-            </video>
-            <p class="teaser has-text-justified">
-              Over the shown trials, the robot learns to correctly align the pendulum so that the hitting plane is
-              correctly aligned. Eventually, the robot effectively uses objects like the bridge present in the
-              environment.
-              <!-- These, along with multiple physical skills involved in the task, highlight PhyPlan's adaptability to long-horizon tasks. -->
-            </p>
-          </div>
+       
         </div>
       </div>
     </div>
@@ -359,92 +233,37 @@
 
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Comparison with the Baseline</h2>
+      <h2 class="title is-3 has-text-centered">Results</h2>
       <div class="column has-text-justified">
         <p>
-          Below is a qualitative comparison with the baseline "DQN-Adaptive" (adapted from <a href="https://phyre.ai/"
-            class="external-link is-normal">[Bakhtin et al., 2019]</a>) which a Deep Q-Network trained on a set of
-          observation-action-reward triplets minimizing the cross-entropy between the soft prediction and the observed
-          reward. DQN-Adaptive also uses the same algorithm as PhyPlan for online learning (<a href="#tasks">here</a>)
-        </p>
-      </div>
-      <hr>
-      <div class="content">
-        <h3 class="title is-4 has-text-centered"><span class="dnerf">DQN-Adaptive</span></h3>
-        <div class="columns is-centered is-vcentered">
-          <!-- Image Column -->
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/DQN-1.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">DQN-Adaptive</span>: Action 1
-            </p>
-          </div>
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/DQN-4.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">DQN-Adaptive</span>: Action 4
-            </p>
-          </div>
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/DQN-11.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">DQN-Adaptive</span>: Action 11
-            </p>
-          </div>
-        </div>
-        <!-- Subtitle Section -->
-        <p class="teaser has-text-justified">
-          <span class="dnerf">DQN-Adaptive</span> (Baseline) executes actions in sequence while learning the difference
-          in the predicted reward for an action and the actual reward. However, it does not use the bridge even after 11
-          attempts which is needed to land the ball further closer to the goal.
+          The figure shows the scene graph that was generated by our approach for the given robot workspace. The
+          scene graph has 3 perspectives to it - spatio-depth relations, planar relations, and category-wise abstraction. Each node in the scene graph represents an
+          object in the workspace and has attributes such as color and pose. This scene graph supports the execution of tasks like “place the book that is to the right
+          of the basket on the rack”(requires knowledge about the planar relation between the books and the basket and also the ‘onTop’ relation between book and
+          glasses to generate viable plans), “give me something to eat”(requires object category abstraction).
         </p>
       </div>
       <div class="content">
-        <h3 class="title is-4 has-text-centered"><span class="dnerf">PhyPlan</span></h3>
-        <div class="columns is-centered is-vcentered">
+        <h3 class="title is-4 has-text-centered"><span class="dnerf"></span></h3>
+        <div class="columns is-centered is-vcentered" , padding-left: 7%;">
           <!-- Image Column -->
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/Phyplan_1.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">PhyPlan</span>: Action 1
-            </p>
+          <div>
+            <img src="./static/images/sg_qualitative_result.png"
+              style="border-radius: 25px; border: 2px solid #555555;" />
           </div>
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/Phyplan_2.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">PhyPlan</span>: Action 2
-            </p>
+          <!-- Text Column -->
           </div>
-          <div class="column is-one-third">
-            <img src="./static/images/bridge_dqn-comp/Phyplan_4.png" width="400" height="300"
-              style="border-radius: 25px;" />
-            <p class="teaser has-text-centered">
-              <span class="dnerf">PhyPlan</span>: Action 4
-            </p>
-          </div>
-        </div>
-        <!-- Subtitle Section -->
-        <p class="teaser has-text-justified">
-          <span class="dnerf">PhyPlan</span> executes actions in sequence while learning the difference in the predicted
-          reward for an action and the actual reward. It does not use the bridge in the first attempt because
-          of errors in prediction. However, it quickly realises the need of the bridge in the second attempt. Further,
-          it chooses appropriate actions to land the ball in the goal in just the fourth attempt. Note that the robot
-          learns to use the bridge effectively; a physical reasoning task reported earlier <a
-            href="https://arxiv.org/abs/1907.09620" class="external-link is-normal">[Allen et al., 2020]</a> to be
-          challenging to learn for model-free methods, highlighting PhyPlan’s adaptability to long-horizon tasks.
-        </p>
+          
+      </div>
+      
+        
       </div>
     </div>
   </section>
 
   <hr>
 
-  <section class="section" id="References">
+  <!-- <section class="section" id="References">
     <div class="container is-max-desktop content">
       <h2 class="title">References</h2>
       <pre><code>1. [Allen et al., 2020] Kelsey R Allen, Kevin A Smith, and Joshua B Tenenbaum.
@@ -454,9 +273,9 @@
         Phyre: A new benchmark for physical reasoning.
         Advances in Neural Information Processing Systems, 32,484 2019.</code></pre>
     </div>
-  </section>
+  </section> -->
 
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">Citation</h2>
       <pre><code>@inproceedings{phyplan2024,
@@ -466,7 +285,7 @@
       year      = {2024}
     }</code></pre>
     </div>
-  </section>
+  </section> -->
 
 
   <footer class="footer">
